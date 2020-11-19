@@ -1,0 +1,35 @@
+.container {
+  height: 100%;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.container h1 {
+  margin-left: 40px;
+}
+
+.searchPanel input[type='text'],
+.searchPanel select {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  display: block;
+  width: 300px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchPanel {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.params {
+  margin-left: 40px;
+}
